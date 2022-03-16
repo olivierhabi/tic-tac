@@ -2,6 +2,9 @@
   "name": "tic-tac-toe",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "dev": "babel-watch src/app.js",
     "start": "node --require @babel/polyfill --require @babel/register ./src/app.js "
